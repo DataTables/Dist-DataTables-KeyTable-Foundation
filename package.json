@@ -1,0 +1,30 @@
+{
+    "name": "datatables.net-keytable-zf",
+    "version": "2.0.0",
+    "description": "KeyTable for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
+    "files": [
+        "css/keyTable.foundation.css"
+    ],
+    "main": "./js/keyTable.foundation.js",
+    "keywords": [
+        "spreadsheet",
+        "excel",
+        "keyboard",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Foundation"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-zf": ">=1.10.9",
+        "datatables.net-keytable": ">=2.0.0"
+    }
+}
