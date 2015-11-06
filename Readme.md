@@ -19,7 +19,7 @@ npm install datatables.net-keytable-zf
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-keytable-zf' )( $ );
+require( 'datatables.net-keytable-zf' )( window, $ );
 ```
 
 ### bower
