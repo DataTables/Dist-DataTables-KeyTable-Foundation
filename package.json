@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-keytable-zf",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "KeyTable for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/keyTable.foundation.css"
