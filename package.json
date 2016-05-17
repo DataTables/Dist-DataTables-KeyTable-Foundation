@@ -5,6 +5,7 @@
     "files": [
         "css/keyTable.foundation.css"
     ],
+    "style": "css/keyTable.foundation.css",
     "keywords": [
         "spreadsheet",
         "excel",
