@@ -3,7 +3,7 @@
     "version": "2.3.1",
     "description": "KeyTable for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
-        "css/keyTable.foundation.css"
+        "css/**/*.css"
     ],
     "style": "css/keyTable.foundation.css",
     "keywords": [
