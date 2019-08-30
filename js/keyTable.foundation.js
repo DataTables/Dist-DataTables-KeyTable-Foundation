@@ -1,4 +1,4 @@
-/*! Foundation styling wrapper for KeyTable
+/*! Bootstrap 4 styling wrapper for KeyTable
  * ©2018 SpryMedia Ltd - datatables.net/license
  */
 
