@@ -1,36 +1,49 @@
 {
     "name": "datatables.net-keytable-zf",
+    "description": "KeyTable for DataTables with styling for [Foundation](https://get.foundation/)",
+    "main": "js/keyTable.foundation.js",
+    "style": "css/keyTable.foundation.css",
     "version": "2.6.1",
-    "description": "KeyTable for DataTables with styling for [Zurb Foundation](http://foundation.zurb.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/keyTable.foundation.css",
     "keywords": [
-        "spreadsheet",
-        "excel",
-        "keyboard",
-        "DataTables",
+        "KeyTable",
+ "Excel",
+ "keyboard",
+ "Spreadsheet",
+        "Foundation",
+        "Datatables",
         "jQuery",
         "table",
-        "Foundation"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-keytable": ">=2.6.1",
+        "datatables.net-zf": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-zf": "^1.10.15",
-        "datatables.net-keytable": "2.6.1"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-KeyTable-Foundation.git"
-    },
-    "main": "js/keyTable.foundation.js"
+    }
 }

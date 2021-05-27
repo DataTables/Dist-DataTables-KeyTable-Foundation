@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-keytable-zf</id>
-    <version>2.6.1</version>
-    <description>KeyTable for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>keytable DataTables jQuery table Foundation</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-Foundation.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-keytable" version="2.5.2"/>
-      <dependency id="foundation" version="5.0.0"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/keytable.foundation.js" target="content\Scripts"/>
-    <file src="js/keytable.foundation.min.js" target="content\Scripts"/>
-    <file src="css/keytable.foundation.css" target="content\Content"/>
-    <file src="css/keytable.foundation.min.css" target="content\Content"/>
-    <file src="js/keytable.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/keytable.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/keytable.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/keytable.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>2.6.1</version>
+        <id>datatables.net-keytable-zf</id>
+        <description>This is KeyTable for DataTables with styling for [Foundation](https://get.foundation/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-Foundation.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>KeyTable  Excel  keyboard  Spreadsheet  Foundation  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-keytable" version=">=2.6.1"/>
+            <dependency id="datatables.net-zf" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/keyTable.foundation.js" target="content\Scripts"/>
+        <file src="js/keyTable.foundation.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/keyTable.foundation.min.js" target="content\Scripts"/>
+        <file src="js/keyTable.foundation.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/keyTable.foundation.css" target="content\Content"/>
+        <file src="css/keyTable.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/keyTable.foundation.min.css" target="content\Content"/>
+        <file src="css/keyTable.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/keyTable.foundation.d.ts" target="content\Scripts"/>
+        <file src="types/keyTable.foundation.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
