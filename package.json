@@ -3,6 +3,7 @@
     "description": "KeyTable for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/keyTable.foundation.js",
     "style": "css/keyTable.foundation.css",
+    "types": "./types/keyTable.foundation.d.ts",
     "version": "2.6.1",
     "files": [
         "css/**/*.css",
