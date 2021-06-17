@@ -4,16 +4,16 @@
     "main": "js/keyTable.foundation.js",
     "style": "css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "Foundation",
         "Datatables",
         "jQuery",
@@ -22,9 +22,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": ">=2.6.1",
-        "datatables.net-zf": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-zf": "^1.10.15",
+        "datatables.net-keytable": "2.6.2"
     },
     "moduleType": [
         "globals",
