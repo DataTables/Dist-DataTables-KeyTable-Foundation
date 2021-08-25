@@ -4,16 +4,16 @@
     "main": "js/keyTable.foundation.js",
     "style": "css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
-    "version": "2.6.2",
+    "version": "2.6.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "Foundation",
         "Datatables",
         "jQuery",
