@@ -11,7 +11,7 @@
         <tags>KeyTable  Excel  keyboard  Spreadsheet  Foundation  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-keytable" version="2.6.4"/>
-            <dependency id="datatables.net-zf" version="1.11.3"/>
+            <dependency id="datatables.net-zf" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/keyTable.foundation.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/keyTable.foundation.min.css" target="content\Content"/>
         <file src="css/keyTable.foundation.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/keyTable.foundation.d.ts" target="content\Scripts"/>
-        <file src="types/keyTable.foundation.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
