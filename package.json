@@ -2,12 +2,14 @@
     "name": "datatables.net-keytable-zf",
     "description": "KeyTable for DataTables with styling for [Foundation](https://get.foundation/)",
     "main": "js/keyTable.foundation.js",
+    "module": "js/keyTable.foundation.mjs",
     "style": "css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
