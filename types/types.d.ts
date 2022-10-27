@@ -1,0 +1,21 @@
+
+// Dist-DataTables-KeyTable-Foundation integration with Foundation exports the DataTables API having
+// set default values to complete the ingeration.
+import Api from "datatables.net";
+
+export default Api;
+
+
+// Dist-DataTables-KeyTable-Foundation integration with Foundation exports the DataTables API having
+// set default values to complete the ingeration.
+import Api from "datatables.net";
+
+export default Api;
+
+
+// Dist-DataTables-KeyTable-Foundation integration with Foundation exports the DataTables API having
+// set default values to complete the ingeration.
+import Api from "datatables.net";
+
+export default Api;
+

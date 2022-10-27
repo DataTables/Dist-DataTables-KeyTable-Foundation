@@ -4,7 +4,7 @@
     "main": "js/keyTable.foundation.js",
     "module": "js/keyTable.foundation.mjs",
     "style": "css/keyTable.foundation.css",
-    "types": "./types/keyTable.foundation.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
