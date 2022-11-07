@@ -5,7 +5,7 @@
     "module": "js/keyTable.foundation.mjs",
     "style": "css/keyTable.foundation.css",
     "types": "./types/types.d.ts",
-    "version": "2.7.0",
+    "version": "2.8.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "Foundation",
         "Datatables",
         "jQuery",
