@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-keytable-zf",
     "description": "KeyTable for DataTables with styling for [Foundation](https://get.foundation/)",
-    "main": "js/keyTable.foundation.js",
-    "module": "js/keyTable.foundation.mjs",
-    "style": "css/keyTable.foundation.css",
+    "main": "./js/keyTable.foundation.js",
+    "module": "./js/keyTable.foundation.mjs",
+    "style": "./css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "KeyTable",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/KeyTable.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/keyTable.foundation.d.ts",
+            "import": "./js/keyTable.foundation.mjs",
+            "default": "./js/keyTable.foundation.mjs",
+            "require": "./js/keyTable.foundation.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/keyTable.foundation.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-keytable-zf",
-    "description": "KeyTable for DataTables with styling for [Foundation](https://get.foundation/)",
+    "description": "KeyTable for DataTables with styling for Foundation",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-KeyTable-Foundation"
