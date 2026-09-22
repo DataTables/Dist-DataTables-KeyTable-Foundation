@@ -5,7 +5,7 @@
     "module": "./js/keyTable.foundation.mjs",
     "style": "./css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "files": [
         "js",
         "css",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "3.0.0",
-        "datatables.net-zf": "^3"
+        "datatables.net-keytable": "3.1.0",
+        "datatables.net-zf": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
