@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/keyTable.foundation.d.ts",
+            "style": "./css/keyTable.foundation.css",
             "import": "./js/keyTable.foundation.mjs",
-            "default": "./js/keyTable.foundation.mjs",
-            "require": "./js/keyTable.foundation.js"
+            "require": "./js/keyTable.foundation.js",
+            "default": "./js/keyTable.foundation.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
