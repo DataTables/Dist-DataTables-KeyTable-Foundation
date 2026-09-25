@@ -5,7 +5,7 @@
     "module": "./js/keyTable.foundation.mjs",
     "style": "./css/keyTable.foundation.css",
     "types": "./types/keyTable.foundation.d.ts",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "files": [
         "js",
         "css",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "3.1.0",
+        "datatables.net-keytable": "3.1.1",
         "datatables.net-zf": "^3.1"
     },
     "author": {
